@@ -10,4 +10,6 @@ git add .
 git status
 git commit -m "Initial files"
 git push -u origin master
+
+git submodule add https://github.com/workspace-pico-libs/... libs/...
 ```
