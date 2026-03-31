@@ -1,5 +1,7 @@
+```
 cd ~/pico/workspace/
 git submodule add https://github.com/workspace-pico-libs/... libs/...
 git status
 git commit -m "Add library ...
 git push
+```
