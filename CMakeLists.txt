@@ -9,6 +9,9 @@ file(GLOB LIB_SOURCES
 # Create STATIC library
 add_library(${LIB_NAME} STATIC ${LIB_SOURCES})
 
+# Add libraries from workspace
+# workspace_add_lib(reentry_lock)
+
 # Define headers- public and private
 target_include_directories(${LIB_NAME}
     PUBLIC
